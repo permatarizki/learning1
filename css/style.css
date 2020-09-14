@@ -12,7 +12,8 @@ nav {
 
 .navigation {
   list-style: none;
-  float: left; }
+  float: left;
+  padding: 10px; }
   .navigation li {
     display: inline-block;
     margin-left: 30px; }
@@ -20,7 +21,8 @@ nav {
       margin: 0; }
     .navigation li a:link {
       text-decoration: none;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      color: #555555; }
 
 .buttons {
   float: right; }
@@ -43,6 +45,7 @@ nav {
     background-color: #ea5717; }
 
 .btn-hot {
+  margin-left: 30px;
   color: #eee; }
   .btn-hot:link {
     background-color: #b83b5e; }

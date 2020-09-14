@@ -30,6 +30,7 @@ nav {
 .navigation {
   list-style: none;
   float: left;
+  padding: 10px;
   li {
     display: inline-block;
     margin-left: 30px;
@@ -39,7 +40,7 @@ nav {
     a:link{
       text-decoration: none;
       text-transform: uppercase;
-      //color: $color-text-dark;
+      color: $color-text-dark;
     }
 
   }
@@ -71,6 +72,7 @@ nav {
 }
 
 .btn-hot{
+  margin-left: 30px;
   &:link{
     background-color: $color-tertiary;
   }
