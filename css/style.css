@@ -5,6 +5,10 @@
 nav {
   margin: 30px;
   background-color: #f9ed69; }
+  nav::after {
+    content: "";
+    clear: both;
+    display: table; }
 
 .navigation {
   list-style: none;

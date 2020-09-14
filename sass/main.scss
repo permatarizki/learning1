@@ -12,11 +12,11 @@ $color-text-dark: #555555;
 nav {
   margin: 30px;
   background-color: $color-primary;
-  //&::after{
-  //     content: "";
-  //     clear: both;
-  //     display: table;
-  //   }
+  &::after{
+          content: "";
+          clear: both;
+          display: table;
+        }
 }
 
 .navigation {
