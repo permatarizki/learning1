@@ -1,5 +1,47 @@
-$color-primary: #55c57a;
-body {
-  color: $color-primary;
-  
+* {
+  margin: 0;
+  padding: 0;
 }
+
+$color-primary: #f9ed69;
+$color-secondary: #f08a5d;
+$color-tertiary: #b83b5e;
+
+$color-text-dark: #555555;
+
+nav {
+  margin: 30px;
+  background-color: $color-primary;
+  //&::after{
+  //     content: "";
+  //     clear: both;
+  //     display: table;
+  //   }
+}
+
+.navigation {
+  list-style: none;
+  //float: left;
+  li {
+    display: inline-block;
+    margin-left: 30px;
+    &:first-child {
+      margin: 0;
+    }
+    a:link{
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $color-text-dark;
+    }
+
+  }
+}
+
+.button{
+  float: right;
+}
+
+
+
+
+
